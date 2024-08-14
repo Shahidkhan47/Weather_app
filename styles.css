@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('path/to/your/image.jpg');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire background */
+    background-position: center; /* Centers the background image */
+    margin: 0;
+    padding: 0;
+}
+
+.weather-app {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.location {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.location h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.location p {
+    font-size: 14px;
+    color: #888888;
+    margin: 0;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.temperature, .weather-condition {
+    flex: 1;
+    text-align: center;
+}
+
+.temperature h2, .weather-condition h2 {
+    font-size: 18px;
+}
+
+.temperature p, .weather-condition p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
